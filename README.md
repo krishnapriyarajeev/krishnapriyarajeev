@@ -4,23 +4,25 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 
 [LinkedIn](https://www.linkedin.com/in/krishnapriya-r-27may2001) · [Email](mailto:krishofficial05@gmail.com)
 
-### Skills
+### Now: LLM agents and backend
 
-| | Now | Before |
-|---|---|---|
-| **Agents** | Agno, OpenAI Agents SDK, MCP | LangGraph |
-| **Models** | Claude, Gemini, Vertex AI | OpenAI |
-| **Methods** | NL-to-SQL, tool calling, structured output, LLM-as-judge evals | RAG, ReAct agents |
-| **Vector&nbsp;search** | pgvector, sqlite-vec, hybrid search (RRF) | Qdrant |
-| **Databases** | PostgreSQL, BigQuery, Redis, SQLite | Cloud SQL |
-| **Backend** | Python, FastAPI, Pydantic, sqlglot, TypeScript, NestJS, GraphQL | |
-| **Pipelines** | AWS SQS, Lambda | Dataflow (Apache Beam), Pub/Sub, asyncio, Playwright |
-| **Speech** | Whisper, pyannote, voice cloning | |
-| **Frontend** | React, Next.js, ECharts | Streamlit |
-| **Vision** | | YOLO11, RF-DETR, ByteTrack, Depth Anything, MediaPipe, OpenCV |
-| **Serving** | | TensorRT, ONNX, Triton, NVIDIA Jetson |
-| **ML** | | PyTorch, scikit-learn, CatBoost, XGBoost, MLflow, Label Studio |
-| **Cloud&nbsp;and&nbsp;CI** | GCP, AWS, Docker, GitHub Actions, pytest | SageMaker, EC2 |
+- **Agents:** LangGraph, Agno, OpenAI Agents SDK, MCP
+- **LLM APIs:** Claude, Gemini, OpenAI, Vertex AI
+- **Techniques:** NL-to-SQL, RAG, tool calling, structured output, LLM-as-judge evals
+- **Vector search:** pgvector, Qdrant, sqlite-vec, hybrid search (RRF)
+- **Databases:** PostgreSQL, BigQuery, Redis, SQLite
+- **Backend:** Python, FastAPI, Pydantic, sqlglot, TypeScript, NestJS, GraphQL
+- **Pipelines:** Dataflow (Apache Beam), Pub/Sub, AWS SQS, Lambda
+- **Speech:** Whisper, pyannote, voice cloning
+- **Frontend:** React, Next.js, ECharts, Streamlit
+- **Cloud and CI:** GCP, Docker, GitHub Actions, pytest
+
+### Before: computer vision and edge AI
+
+- **Computer vision:** Ultralytics, RF-DETR, ByteTrack, Depth Anything, MediaPipe, OpenCV
+- **Edge and serving:** NVIDIA Jetson, TensorRT, ONNX, Triton, GStreamer
+- **ML:** PyTorch, scikit-learn, CatBoost, XGBoost, MLflow, Label Studio
+- **AWS:** SageMaker Pipelines, EC2, S3, Kinesis Video Streams
 
 ### Work
 
