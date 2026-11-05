@@ -2,7 +2,7 @@
 
 AI engineer at KeyValue Software Systems, Kochi. I build LLM agents and the backend and data pipelines they run on. Before that I worked on computer vision.
 
-[LinkedIn](https://www.linkedin.com/in/krishnapriya-rajeev-6b4808204) · [Email](mailto:krishofficial05@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/krishnapriya-r-27may2001) · [Email](mailto:krishofficial05@gmail.com)
 
 **Working on now:** LLM agents, NL-to-SQL, RAG · Python, FastAPI, LangGraph, Agno · BigQuery, PostgreSQL, pgvector
 
