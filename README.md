@@ -32,7 +32,28 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 
 ### Projects
 
-- [PitchMe](https://github.com/krishnapriyarajeev/pitchme): record a pitch, get feedback on voice, body language and content, then hear a better version in your own cloned voice. FastAPI, Whisper, pyannote, Expo.
+- [PitchMe](https://github.com/krishnapriyarajeev/pitchme): practice a sales call with an AI buyer, then get a debrief on content, speech, voice and body language, with stronger answers played back in your own cloned voice. FastAPI, LiveKit, Whisper, pyannote, MediaPipe, Expo.
+
+  <details>
+  <summary>How PitchMe works</summary>
+
+  ```mermaid
+  flowchart TD
+      setup["Set up a deal<br/>buyer, stage, mood"] --> live["Live call with an AI buyer<br/>LiveKit, Deepgram, Groq"]
+      live --> rec["Recording and transcript<br/>Whisper"]
+      rec --> content["Content<br/>LLM judge, your playbook"]
+      rec --> speech["Speech<br/>pace, pauses, fillers"]
+      rec --> voice["Voice<br/>pitch, loudness, nerves"]
+      rec --> body["Body language<br/>MediaPipe pose and face"]
+      content --> fixes["Stronger answers<br/>in your cloned voice"]
+      fixes --> debrief["Debrief<br/>4 scores, annotated video"]
+      speech --> debrief
+      voice --> debrief
+      body --> debrief
+  ```
+
+  </details>
+
 - [Monocular Depth Estimation](https://github.com/krishnapriyarajeev/Monocular_Depth_Estimation): distance to each object from a single camera image, using YOLOv5 and MiDaS.
 
 ### Writing and teaching
