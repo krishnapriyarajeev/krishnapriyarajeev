@@ -35,6 +35,12 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 - [PitchMe](https://github.com/krishnapriyarajeev/pitchme): record a pitch, get feedback on voice, body language and content, then hear a better version in your own cloned voice. FastAPI, Whisper, pyannote, Expo.
 - [Monocular Depth Estimation](https://github.com/krishnapriyarajeev/Monocular_Depth_Estimation): distance to each object from a single camera image, using YOLOv5 and MiDaS.
 
+### Writing and teaching
+
+- [TensorRT inference optimization on NVIDIA Jetson AGX Orin](https://www.keyvalue.systems/blog/from-bottlenecks-to-breakthroughs-how-tensorrt-video-analytics-revolutionized-our-pipeline/), KeyValue blog, co-written with Ratheesha S
+- Talks and workshops at KeyValue on SQL agents, vector databases, image generation and Jetson
+- Mentoring for new joiners in the fresher training program
+
 ### Education
 
 B.Tech in Computer Science, TKM College of Engineering, Kollam (2020 to 2024)
