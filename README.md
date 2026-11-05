@@ -7,7 +7,7 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 ### Now: LLM agents and backend
 
 - **Agents:** LangGraph, Agno, OpenAI Agents SDK, MCP
-- **Techniques:** NL-to-SQL, RAG, tool calling, structured output, LLM-as-judge evals
+- **Techniques:** RAG, tool calling, structured output, guardrails, human-in-the-loop, LLM-as-judge evals
 - **Vector search:** pgvector, Qdrant, sqlite-vec, hybrid search (RRF)
 - **Databases:** PostgreSQL, BigQuery, Redis, SQLite
 - **Backend:** Python, FastAPI, Pydantic, sqlglot, TypeScript, NestJS, GraphQL
@@ -20,7 +20,7 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 
 - **Computer vision:** Ultralytics, RF-DETR, ByteTrack, Depth Anything, MediaPipe, OpenCV
 - **Edge and serving:** NVIDIA Jetson, TensorRT, ONNX, Triton, GStreamer
-- **ML:** PyTorch, scikit-learn, CatBoost, XGBoost, MLflow, Label Studio
+- **ML:** PyTorch, scikit-learn, MLflow, Label Studio
 - **AWS:** SageMaker Pipelines, EC2, S3, Kinesis Video Streams
 
 ### Work
