@@ -1,12 +1,26 @@
 ## Krishnapriya Rajeev
 
-AI engineer at KeyValue Software Systems, Kochi. I build LLM agents and the backend and data pipelines they run on. Before that I worked on computer vision.
+AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agents, mostly NL-to-SQL and RAG. I started out in computer vision.
 
 [LinkedIn](https://www.linkedin.com/in/krishnapriya-r-27may2001) · [Email](mailto:krishofficial05@gmail.com)
 
-**Working on now:** LLM agents, NL-to-SQL, RAG · Python, FastAPI, LangGraph, Agno · BigQuery, PostgreSQL, pgvector
+### Skills
 
-**Worked on earlier:** Computer vision · PyTorch, YOLO11, RF-DETR · TensorRT, Triton, NVIDIA Jetson · AWS SageMaker
+| | Now | Before |
+|---|---|---|
+| **Agents** | Agno, OpenAI Agents SDK, MCP | LangGraph |
+| **Models** | Claude, Gemini, Vertex AI | OpenAI |
+| **Methods** | NL-to-SQL, tool calling, structured output, LLM-as-judge evals | RAG, ReAct agents |
+| **Vector&nbsp;search** | pgvector, sqlite-vec, hybrid search (RRF) | Qdrant |
+| **Databases** | PostgreSQL, BigQuery, Redis, SQLite | Cloud SQL |
+| **Backend** | Python, FastAPI, Pydantic, sqlglot, TypeScript, NestJS, GraphQL | |
+| **Pipelines** | AWS SQS, Lambda | Dataflow (Apache Beam), Pub/Sub, asyncio, Playwright |
+| **Speech** | Whisper, pyannote, voice cloning | |
+| **Frontend** | React, Next.js, ECharts | Streamlit |
+| **Vision** | | YOLO11, RF-DETR, ByteTrack, Depth Anything, MediaPipe, OpenCV |
+| **Serving** | | TensorRT, ONNX, Triton, NVIDIA Jetson |
+| **ML** | | PyTorch, scikit-learn, CatBoost, XGBoost, MLflow, Label Studio |
+| **Cloud&nbsp;and&nbsp;CI** | GCP, AWS, Docker, GitHub Actions, pytest | SageMaker, EC2 |
 
 ### Work
 
@@ -19,8 +33,6 @@ AI engineer at KeyValue Software Systems, Kochi. I build LLM agents and the back
 
 - [PitchMe](https://github.com/krishnapriyarajeev/pitchme): record a pitch, get feedback on voice, body language and content, then hear a better version in your own cloned voice. FastAPI, Whisper, pyannote, Expo.
 - [Monocular Depth Estimation](https://github.com/krishnapriyarajeev/Monocular_Depth_Estimation): distance to each object from a single camera image, using YOLOv5 and MiDaS.
-- [G-Rizer](https://github.com/krishnapriyarajeev/G-Rizer): summarizes long emails.
-- [task-tree](https://github.com/krishnapriyarajeev/task-tree): a to-do list shaped like a tree.
 
 ### Education
 
