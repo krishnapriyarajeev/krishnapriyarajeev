@@ -7,14 +7,13 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 ### Now: LLM agents and backend
 
 - **Agents:** LangGraph, Agno, OpenAI Agents SDK, MCP
-- **LLM APIs:** Claude, Gemini, OpenAI, Vertex AI
 - **Techniques:** NL-to-SQL, RAG, tool calling, structured output, LLM-as-judge evals
 - **Vector search:** pgvector, Qdrant, sqlite-vec, hybrid search (RRF)
 - **Databases:** PostgreSQL, BigQuery, Redis, SQLite
 - **Backend:** Python, FastAPI, Pydantic, sqlglot, TypeScript, NestJS, GraphQL
-- **Pipelines:** Dataflow (Apache Beam), Pub/Sub, AWS SQS, Lambda
+- **Data pipelines:** Dataflow (Apache Beam), Pub/Sub, streaming and batch ETL, idempotent ingestion
+- **Queues and workers:** AWS SQS, dead-letter queues, Lambda, asyncio, multiprocessing
 - **Speech:** Whisper, pyannote, voice cloning
-- **Frontend:** React, Next.js, ECharts, Streamlit
 - **Cloud and CI:** GCP, Docker, GitHub Actions, pytest
 
 ### Before: computer vision and edge AI
@@ -26,10 +25,10 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
 
 ### Work
 
-- **NL-to-SQL analytics agent.** Answers plain-English questions with BigQuery SQL, charts and dashboards. I built the column-level access checks, the verified-query retrieval (hit@3 went from 0.83 to 0.98) and a 122-question eval set.
-- **LLM shopping assistant** for a US retail-health company. A LangGraph agent with tools for price, inventory and cart. I also built its Dataflow and BigQuery pipelines for product data and logs.
-- **Vehicle pose classifier.** YOLO11-pose plus geometry checks to tell which side of a car is in a photo. 99.5% correct on 735 test cars, trained through 3 SageMaker pipelines.
-- **Legal document pipeline.** Collected 16.5M court judgments and laws to pretrain a small legal language model. asyncio, Playwright, S3.
+- **NL-to-SQL analytics agent.** Answers plain-English business questions with BigQuery SQL, charts and dashboards that refresh daily. SQL checks block sensitive columns and cap query cost. Verified example queries guide the model (hit@3 went from 0.83 to 0.98), and evals grade the answers with an LLM judge.
+- **LLM shopping assistant** for a US retail-health company. Shoppers ask about a product (details, reviews, coupons, store stock), compare it with others and add it to the cart. It runs on LangGraph workflows with RAG over reviews. Its logs stream through Pub/Sub and Dataflow into BigQuery and an analytics dashboard.
+- **Vehicle pose classifier.** Checks that a car is at the right angle before a dealership photo is taken. A pose model finds the car, its 4 wheels and its view (99.5% correct on 735 validation cars), then geometry rules check the result. The model pre-labels new images in Label Studio, and 3 SageMaker pipelines handle data prep and training.
+- **Legal document pipeline.** Collects Indian court judgments and laws as training data for a small legal language model. It found 16.5M document links and uses async workers, rate limiting, retries and resumable S3 uploads.
 
 ### Projects
 
