@@ -37,6 +37,8 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
       a2 --> a4["Guardrails<br/>columns, cost"]
       a5["User approval<br/>big queries"] -.-> a4
       a4 --> a6["BigQuery<br/>chart, dashboard"]
+      a4 ~~~ a9[" "]
+      style a9 fill:none,stroke:none
   ```
 
   </details>
@@ -69,6 +71,8 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
       v2 --> v3["Ultralytics pose<br/>view, 4 wheels"]
       v4["Camera frame"] --> v3
       v3 --> v5["Geometry rules<br/>right angle?"]
+      v3 ~~~ v9[" "]
+      style v9 fill:none,stroke:none
   ```
 
   </details>
@@ -82,8 +86,8 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
   flowchart LR
       l1["Search pages<br/>split by date"] --> l2["Async harvest<br/>16.5M links"]
       l2 --> l3["Text download<br/>retries, resume"]
+      l2 -.-> l5["Failure files<br/>for re-runs"]
       l3 --> l4["S3<br/>JSON per doc"]
-      l3 -.-> l5["Failure files<br/>for re-runs"]
   ```
 
   </details>
@@ -123,6 +127,8 @@ AI engineer at KeyValue Software Systems in Kochi. These days I work on LLM agen
       m2 --> m4["Linear model<br/>depth to meters"]
       m3 --> m4
       m4 --> m5["Distance<br/>per object"]
+      m4 ~~~ m9[" "]
+      style m9 fill:none,stroke:none
   ```
 
   </details>
